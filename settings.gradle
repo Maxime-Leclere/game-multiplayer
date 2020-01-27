@@ -1,0 +1,8 @@
+rootProject.name = 'game-multiplayer'
+include 'game'
+include 'server'
+include 'common'
+include 'game'
+include 'server'
+include 'common'
+
