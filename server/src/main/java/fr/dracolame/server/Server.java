@@ -1,5 +1,8 @@
 package fr.dracolame.server;
 
+import fr.dracolame.game.client.Client;
+import fr.dracolame.game.client.Request;
+
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.net.InetAddress;
@@ -10,7 +13,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Server {
-    private int port = 1452;
+    private int port = 2342;
     private InetAddress inetAddress = InetAddress.getLocalHost();
     private ServerSocket serverListen;
     private boolean running;

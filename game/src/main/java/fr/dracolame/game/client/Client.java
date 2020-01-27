@@ -25,7 +25,7 @@ public class Client implements Serializable {
         logInOnClient();
         try {
             // connexion au serveur
-            socket = new Socket(InetAddress.getLocalHost(), 1452);
+            socket = new Socket(InetAddress.getLocalHost(), 2342);
             System.out.println("connecter sur le serveur!!");
 
             // traitement de donnee recu du serveur

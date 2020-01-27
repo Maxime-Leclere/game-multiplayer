@@ -1,5 +1,6 @@
 package fr.dracolame.game;
 
+import fr.dracolame.game.client.Client;
 import fr.dracolame.game.fight.Fight;
 import fr.dracolame.game.player.user.Human;
 
@@ -57,6 +58,6 @@ public class GestionGame {
 //        while (fight.isRunning()) {
 //            executeAction(fight, menu(fight));
 //        }
-//        Client client = new Client();
+        Client client = new Client();
     }
 }
